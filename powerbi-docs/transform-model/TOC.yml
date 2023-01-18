@@ -1,0 +1,141 @@
+- name: Transform, shape, and model data in Power BI
+  href: index.yml
+  expanded: true
+  items:
+  - name: Overview
+    expanded: true
+    items: 
+    - name: "Query Editor overview"
+      href: desktop-query-overview.md
+    - name: "Self-service data prep with dataflows"
+      href: ./dataflows/dataflows-introduction-self-service.md
+  - name: Tutorials
+    expanded: true
+    items: 
+    - name: "Create your own measures"
+      href: desktop-tutorial-create-measures.md
+    - name: "Create calculated columns"
+      href: desktop-tutorial-create-calculated-columns.md
+  - name: Concepts
+    expanded: true
+    items: 
+    - name: "Understand model relationships"
+      href: desktop-relationships-understand.md
+    - name: "Work with Modeling view"
+      href: desktop-modeling-view.md      
+    - name: "Manage aggregations"
+      href: desktop-aggregations.md      
+    - name: "Use composite models"
+      href: desktop-composite-models.md
+    - name: "Apply many-many relationships"
+      href: desktop-many-to-many-relationships.md
+    - name: "Manage storage mode"
+      href: desktop-storage-mode.md
+    - name: "Enable bidirectional cross-filtering"
+      href: desktop-bidirectional-filtering.md
+    - name: "Work with multidimensional models in Power BI"
+      href: ../connect-data/desktop-default-member-multidimensional-models.md            
+  - name: Dataflows
+    items: 
+    - name: "Introduction to dataflows"
+      href: dataflows/dataflows-introduction-self-service.md
+    - name: "Create a dataflow"
+      href: dataflows/dataflows-create.md
+    - name: "Configure and consume a dataflow"
+      href: dataflows/dataflows-configure-consume.md   
+    - name: "Configure Power BI Premium dataflow workloads"
+      href: dataflows/dataflows-premium-workload-configuration.md        
+    - name: "Dataflows and Azure Data Lake Gen2"
+      href: dataflows/dataflows-azure-data-lake-storage-integration.md       
+    - name: "Premium features of dataflows"
+      href: dataflows/dataflows-premium-features.md      
+    - name: "Use Machine Learning and Cognitive Services with dataflows"
+      href: dataflows/dataflows-machine-learning-integration.md      
+    - name: "Dataflows limitations and considerations"
+      href: dataflows/dataflows-features-limitations.md            
+  - name: How-to guides
+    items: 
+    - name: "Perform common query tasks"
+      href: desktop-common-query-tasks.md
+    - name: "Create and manage relationships"
+      href: desktop-create-and-manage-relationships.md
+    - name: "Use the Analytics pane"
+      href: desktop-analytics-pane.md
+    - name: "Work with Data view"
+      href: ../connect-data/desktop-data-view.md
+    - name: "Apply DAX basics"
+      href: desktop-quickstart-learn-dax-basics.md
+    - name: "Work with Relationship view"
+      href: desktop-relationship-view.md
+    - name: Transform and shape data
+      items: 
+      - name: "Combine files (binaries)"
+        href: desktop-combine-binaries.md
+      - name: "Use AI Insights (preview)"
+        href: desktop-ai-insights.md        
+    - name: Model your data
+      items: 
+      - name: "Create quick measures for common calculations"
+        href: desktop-quick-measures.md
+      - name: "Create and use what-if parameters to visualize variables"
+        href: desktop-what-if.md
+      - name: "Specify data categories in Power BI Desktop"
+        href: desktop-data-categorization.md
+      - name: "Tag barcode fields in Power BI for the mobile app"
+        href: desktop-mobile-barcodes.md
+      - name: "Set geographic filters in Power BI for the mobile app"
+        href: desktop-mobile-geofiltering.md
+      - name: "Create calculated columns"
+        href: desktop-calculated-columns.md
+      - name: "Create calculated tables"
+        href: desktop-calculated-tables.md
+      - name: "Create measures for data analysis"
+        href: desktop-measures.md
+      - name: "Import and display KPIs"
+        href: desktop-import-and-display-kpis.md
+      - name: "Apply auto date/time"
+        href: desktop-auto-date-time.md   
+    - name: Self-service data prep
+      items: 
+      - name: "Create and use dataflows"
+        href: ./dataflows/dataflows-create.md
+      - name: "Dataflows best practices"
+        href: ./dataflows/dataflows-best-practices.md        
+      - name: "Use DirectQuery with dataflows in Power BI (preview)"
+        href: ./dataflows/dataflows-configure-consume.md
+      - name: "Use the enhanced compute engine with dataflows"
+        href: ./dataflows/dataflows-premium-features.md
+      - name: "Computed entities with Power BI Premium"
+        href: ./dataflows/dataflows-premium-features.md
+      - name: "Connect to data sources with dataflows"
+        href: ./dataflows/dataflows-configure-consume.md
+      - name: "Use dataflows with on-premises data sources"
+        href: ./dataflows/dataflows-configure-consume.md
+      - name: "Link entities between dataflows"
+        href: ./dataflows/dataflows-premium-features.md
+      - name: "Use incremental refresh with dataflows"
+        href: ./dataflows/dataflows-premium-features.md
+      - name: "Developer resources for dataflows"
+        href: ./dataflows/dataflows-configure-consume.md
+      - name: "Connect to dataflows in Power BI Desktop"
+        href: desktop-connect-dataflows.md  
+      - name: "Dataflows and Azure Data Lake integration (Preview)"
+        href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
+      - name: "Connect Azure Data Lake Storage Gen2 for dataflow storage"
+        href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
+      - name: "Configure workspace dataflow settings (Preview)"
+        href: ./dataflows/dataflows-configure-consume.md
+      - name: "Add a CDM folder to Power BI as a dataflow (Preview)"
+        href: ./dataflows/dataflows-machine-learning-integration.md
+      - name: "Integrate Machine Learning in Power BI"
+        href: ./dataflows/dataflows-machine-learning-integration.md
+      - name: "Use Cognitive Services in Power BI"
+        href: ./dataflows/dataflows-machine-learning-integration.md
+      - name: "Automated Machine Learning in Power BI"
+        href: ./dataflows/dataflows-machine-learning-integration.md
+  - name: Reference
+    items: 
+    - name: "Use the Field list in Power BI Desktop (preview)"
+      href: desktop-field-list.md
+    - name: "Formula editor shortcuts"
+      href: desktop-formula-editor.md
